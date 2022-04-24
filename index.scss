@@ -301,6 +301,9 @@ nav{
                     font-size:48px;
                     text-transform:uppercase;
                     opacity: 0;
+                    a{
+                        color:#F6F6F6;
+                    }
 
                     transition: opacity .3s ease;
                 }
@@ -317,10 +320,6 @@ nav{
                     bottom:20px;
                     right:20px;
                     transition: transform .4s ease;
-                    a{
-                        color:#F6F6F6;
-                        text-decoration:none;
-                    }
 
                 }
             }

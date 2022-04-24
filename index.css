@@ -438,6 +438,10 @@ nav ul li a {
   transition: opacity .3s ease;
 }
 
+.work .work-examples .example .overlay p a {
+  color: #F6F6F6;
+}
+
 .work .work-examples .example .overlay .caption-top {
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
@@ -460,11 +464,6 @@ nav ul li a {
   transition: -webkit-transform .4s ease;
   transition: transform .4s ease;
   transition: transform .4s ease, -webkit-transform .4s ease;
-}
-
-.work .work-examples .example .overlay .caption-bot a {
-  color: #F6F6F6;
-  text-decoration: none;
 }
 
 .work .work-examples .example:hover .overlay {
