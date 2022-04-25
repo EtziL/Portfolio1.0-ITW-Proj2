@@ -722,5 +722,8 @@ nav ul li a {
   .contact .socials-container a {
     font-size: 16px;
   }
+  .work .work-examples .example .overlay {
+    display: none;
+  }
 }
 /*# sourceMappingURL=index.css.map */
